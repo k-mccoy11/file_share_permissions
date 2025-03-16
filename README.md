@@ -55,12 +55,13 @@
   <h4>Test Access as a Normal User</h4>
 <p>
 <ul>
-<li> On Device-1, open the shared folder (\\Domain-Controller).</li>
+<li> On Device-1, open the shared folder (\\Domain-Controll).</li>
 <li>Attempt to access each folder:</li>
 <ul>
   <li>Check which folders are accessible.</li>
   <li>Try creating/modifying files where permitted.</li> 
-  <img src=""/>
+<img src="https://github.com/user-attachments/assets/7418dbc5-9346-4149-ba72-aef8aa9318e9"/>
+  <img src="https://github.com/user-attachments/assets/300343bf-0142-48f8-bc39-d78a4c89b652"/>
 </ul>
 </ul>
 </p>
@@ -70,7 +71,8 @@
 <p>
 <ul>
 <li>On DC-1, create a "TEACHERS" security group in Active Directory.</li>
-<img src=""/>
+<img src="https://github.com/user-attachments/assets/ed618fbb-d801-47e2-bff0-cf72b557374b"/>
+  <img src=""/>
 <li>Assign permissions to the "teachers" folder:</li>
 <ul>
   <li>"TEACHERS" group → Read/Write access.</li>
