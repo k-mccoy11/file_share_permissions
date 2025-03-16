@@ -41,12 +41,16 @@
 "/>
 <li>R_Access→ Grant Domain Users: Read permission.</li>
 <img src="https://github.com/user-attachments/assets/a473649d-a359-4510-8027-0039a2946412"/>
+    <br/>
     <img src="https://github.com/user-attachments/assets/363394f0-25d5-4e8f-b4b2-5c9c4914c4a4"/>
+    <br/>
       <img src="https://github.com/user-attachments/assets/5b8270f3-1e1b-4cfb-8716-8cabc739c3f6"/> 
+    <br/>
 <li>RW_Access→ Grant Domain Users: Read/Write permission.</li>
 <img src="https://github.com/user-attachments/assets/d8e787b3-410a-472c-abe0-ba955e162d6a"/>
+    <br/>
 <li>Teachers → Will configure later: Read/Write access.</li>
-<img src=""/>
+
 </ul>
   </ul>
 </p>
@@ -61,6 +65,7 @@
   <li>Check which folders are accessible.</li>
   <li>Try creating/modifying files where permitted.</li> 
 <img src="https://github.com/user-attachments/assets/7418dbc5-9346-4149-ba72-aef8aa9318e9"/>
+  <br/>
   <img src="https://github.com/user-attachments/assets/300343bf-0142-48f8-bc39-d78a4c89b652"/>
 </ul>
 </ul>
@@ -72,18 +77,32 @@
 <ul>
 <li>On DC-1, create a "TEACHERS" security group in Active Directory.</li>
 <img src="https://github.com/user-attachments/assets/ed618fbb-d801-47e2-bff0-cf72b557374b"/>
-  <img src=""/>
+  <br/>
+  <img src="https://github.com/user-attachments/assets/b307090d-775a-44c3-8e50-91edb5d740d3"/>
+  <br/>
 <li>Assign permissions to the "teachers" folder:</li>
 <ul>
   <li>"TEACHERS" group → Read/Write access.</li>
-  <img src=""/>
+  <img src="https://github.com/user-attachments/assets/9ef39d8e-95ce-4d7e-bb11-6c3072fbada7"/>
 </ul>
-<li>On Device-1, attempt to access "accounting" as <someuser> (it should fail).</li>
-  <img src=""/>
-  <li>On DC-1, add (mydomain.com\beh.sih) to the "TEACHERS" group.</li>
-    <img src=""/>
-<li>Log back into Device-1 as (mydomain.com\beh.sih) and try accessing "teachers" again (it should now succeed).</li>
-  <img src=""/>
+  <br/>
+<li>On Device-1, attempt to access "Teachers" as (mydomain.com\gar.visen) (it should fail).</li>
+  <img src="https://github.com/user-attachments/assets/3ba729e1-c817-421b-8d32-37bb7197f214"/>
+  <br/>
+  <br/>
+  
+  <img src="https://github.com/user-attachments/assets/dbb12a63-e792-4730-923f-100d005f9b83"/>
+<br/>
+<br/>
+  <li>On DC-1, add "gar.visen" to the "TEACHERS" group.</li>
+    <img src="https://github.com/user-attachments/assets/337a2f63-1747-466a-b2b7-a71895fae57b"/>
+    <br/>
+    <br/>
+ <img src="https://github.com/user-attachments/assets/8997cf34-158d-4fab-a4c0-24b827c7c44b"/>
+  <br/>
+  <br/>
+<li>Log back into Device-1 as (mydomain.com\gar.visen) and try accessing "teachers" again (it should now succeed).</li>
+  <img src="https://github.com/user-attachments/assets/30f0bd99-2917-4b5b-a463-90a65530af6a"/>
   </ul>
 </p>
 Tutorial Complete!
